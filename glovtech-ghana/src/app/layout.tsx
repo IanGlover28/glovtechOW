@@ -1,7 +1,6 @@
 // app/layout.tsx
 import './globals.css'
 import { ReactNode } from 'react'
-import Head from 'next/head'
 
 export const metadata = {
   title: 'Glovtech Ghana | AI & IT Solutions',

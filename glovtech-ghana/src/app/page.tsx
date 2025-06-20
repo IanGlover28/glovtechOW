@@ -1,4 +1,4 @@
-import { Contact } from 'lucide-react';
+// import { Contact } from 'lucide-react';
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import About from '@/components/About';

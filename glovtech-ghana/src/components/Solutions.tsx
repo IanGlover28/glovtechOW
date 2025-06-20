@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import FadeInWhenVisible from './FadeInWhenVisible'
 
 export default function Solutions() {
