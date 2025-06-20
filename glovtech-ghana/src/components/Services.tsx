@@ -16,7 +16,7 @@ const services = [
     title: 'G-TicketN',
     description:
       'A smart digital ticketing platform built for seamless event access, bookings, and real-time tracking.',
-    image: '/ticket.jpg',
+    image: '/travel.jpg',
     link: '#web-dev',
   },
   {
