@@ -4,14 +4,21 @@ import FadeInWhenVisible from "./FadeInWhenVisible"
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white pt-32 px-8 flex items-center justify-center">
+    <section
+      className="min-h-screen bg-cover bg-center bg-no-repeat text-white pt-32 px-8 flex items-center justify-center"
+      style={{ backgroundImage: 'url("/hero.jpg")' }} // Replace with your actual image path
+    >
       <FadeInWhenVisible>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
-          <div className="space-y-4 md:order-2 text-center md:text-left flex flex-col items-center md:items-start">
+          
+          {/* Empty left column to push text right on desktop */}
+          <div className="hidden md:block"></div>
+
+          <div className="space-y-4 text-center md:text-left flex flex-col items-center md:items-start">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Empowering Africa with AI & Tech
             </h1>
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-200">
               Glovtech Ghana delivers AI automation, web development, and IT solutions to help your business scale faster.
             </p>
             <a
@@ -20,17 +27,6 @@ export default function Hero() {
             >
               Free Consultation!
             </a>
-          </div>
-
-          <div className="md:order-1 hidden md:block">
-            <video
-              src="/hero.mp4"
-              className="w-full rounded-xl shadow-lg"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
           </div>
         </div>
       </FadeInWhenVisible>
