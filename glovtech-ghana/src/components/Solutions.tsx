@@ -141,11 +141,11 @@ export default function SolutionsSection() {
               {/* Stats */}
               <div className="mt-8 grid grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600">100+</div>
+                  <div className="text-2xl font-bold text-blue-600">20+</div>
                   <div className="text-xs text-gray-600 mt-1">Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-green-600">50+</div>
+                  <div className="text-2xl font-bold text-green-600">10+</div>
                   <div className="text-xs text-gray-600 mt-1">Clients</div>
                 </div>
                 <div className="text-center">
